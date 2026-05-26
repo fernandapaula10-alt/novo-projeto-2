@@ -20,4 +20,25 @@ padding: 10px;
 a{
     text-decoration: none;
     font-size: 20px;
+    color: black;
+    padding: 10px;
+}
+section{
+    flex-direction: column;
+}
+.cartao{
+    width: 260px;
+    height: 200px;
+}
+.cartao-frente{
+    background-color: blueviolet;;
+    position: absolute;
+    border-radius: 12px;
+    border: solid 5px red;
+}
+.cartao-verso{
+    background-color: aquamarine;
+    position: absolute;
+    border-radius: 12px;
+    border: solid 5px red;
 }
